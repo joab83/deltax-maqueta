@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>DeltaX Dashboard</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
+
+    <script defer src="node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+    <script defer src="node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+    <script defer src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      
+      <!-- Header ------------------------------------------->
+      <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Planta 001</a>
+        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <input class="form-control form-control-dark w-100" type="text" placeholder="Buscar" aria-label="Buscar">
+        <ul class="navbar-nav px-3">
+          <li class="nav-item text-nowrap">
+            <a class="nav-link" href="#">Sign out</a>
+          </li>
+        </ul>
+      </header>
+
+      <!-- Menu ------------------------------------------->
+      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+        <div class="position-sticky pt-3">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <span class="fas fa-cogs"></span>
+                Operación
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="fas fa-tasks"></span>
+                Resumen
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="fas fa-chart-area"></span>
+                Gestión
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <!-- Contenido ------------------------------------------->
+      <div id="page-wrapper">
+        <div class="container-fluid">
+          <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+              <h1 class="h2">Operación</h1>
+            </div>
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h3 class="panel-title"> 
+                        <span class="fas fa-chevron-right"></span>
+                        Estado del Equipo
+                      </h3>
+                  </div>
+                  <div class="panel-body">
+                      <div>Prueba</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h3 class="panel-title"> 
+                        <span class="fas fa-tachometer-alt"></span>
+                        Variables
+                      </h3>
+                  </div>
+                  <div class="panel-body">
+                      <div>Prueba</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h3 class="panel-title"> 
+                        <span class="fas fa-chart-bar"></span>
+                        Grafico de variables
+                      </h3>
+                  </div>
+                  <div class="panel-body">
+                      <div>Prueba</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h3 class="panel-title"> 
+                        <span class="fas fa-map-marked"></span>
+                        Esquema de Planta
+                      </h3>
+                  </div>
+                  <div class="panel-body">
+                      <div>Prueba</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                      <h3 class="panel-title"> 
+                        <span class="fas fa-list-ol"></span>
+                        Lista de eventos
+                      </h3>
+                  </div>
+                  <div class="panel-body">
+                      <div>Prueba</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+
+        </div> <!-- /.container-fluid -->
+      </div> <!-- /#page-wrapper -->
+    </div> <!-- /#wrapper -->
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dashboard.js"></script>
+  </body>
+</html>
